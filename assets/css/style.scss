@@ -1,0 +1,39 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+$sauder-green: #78BE20;
+
+a {
+    color:$sauder-green;
+}
+
+.links {
+    height: 4rem;
+}
+
+.logo {
+    margin-bottom: 1rem;
+}
+
+.btn {
+
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+  
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    
+    background-color: $sauder-green;
+    color: #ecf0f1;
+
+    float: right;
+  }
+
+  .btn:hover {
+      font-weight: normal;
+      color: #355212;
+  }

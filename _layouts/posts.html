@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<header>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+</header>
+
+<body>
+    <h1>{{  page.title  }}</h1>
+
+    <p>{{ page.summary }}</p>
+
+    <div class="links">
+        <a href="{{ page.repository }}" class="btn github"><i class="fab fa-github"></i> GitHub</a>
+        <a href="{{ page.syzygy }}" class="btn syzygy"><i class="fas fa-external-link-alt"></i> Syzygy</a>
+    </div>
+
+    <hr>
+
+    {{content}}
+</body>
