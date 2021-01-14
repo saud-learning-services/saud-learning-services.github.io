@@ -1,51 +1,53 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import '{{ site.theme }}';
 
-$sauder-green: #78BE20;
+$sauder-green: #78be1f;
+$ubc-blue: #002145;
 
 a {
-    color:$sauder-green;
+  color: $ubc-blue;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 4rem;
-}
-
-.envSetupBtn {
-    width: 80%;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
 }
 
 .links {
-    height: 4rem;
+  height: 4rem;
 }
 
 .logo {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
-.btn {
+header ul {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  padding: 0.5rem 0;
+}
 
-    padding: 0.5rem;
-    margin-right: 0.5rem;
-  
-    border-width: 0;
-    outline: none;
-    border-radius: 2px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-    
-    background-color: $sauder-green;
-    color: #ecf0f1;
+h3 {
+  font-size: 1.2rem;
+}
 
-    float: right;
-  }
+ul .doc_link {
+  border: none;
+  width: 100%;
+}
 
-  .btn:hover {
-      font-weight: normal;
-      color: #355212;
-  }
+ul .doc_link a {
+  font-size: 0.9rem;
+  font-weight: 700;
+  width: 100%;
+}
+
+.doc_link a:hover {
+  color: $sauder-green;
+}
