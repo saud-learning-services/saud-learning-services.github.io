@@ -5,6 +5,7 @@
 
 $sauder-green: #78be1f;
 $ubc-blue: #002145;
+$ubc-blue-light: #97d5e97b;
 
 a {
   color: $ubc-blue;
@@ -26,6 +27,16 @@ a {
   margin-bottom: 1rem;
 }
 
+header h1 {
+  width: 300px;
+}
+
+.site_title {
+  font-size: 1.3rem;
+  margin: 0;
+  width: 100%;
+}
+
 header ul {
   display: flex;
   flex-direction: column;
@@ -34,7 +45,13 @@ header ul {
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  color: $ubc-blue;
+}
+
+header ul {
+  border-radius: 10px;
+  background-color: $ubc-blue-light;
 }
 
 ul .doc_link {
@@ -43,11 +60,12 @@ ul .doc_link {
 }
 
 ul .doc_link a {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 700;
   width: 100%;
+  color: $ubc-blue;
 }
 
 .doc_link a:hover {
-  color: $sauder-green;
+  color: #0b3562bd;
 }
