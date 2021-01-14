@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: My title
+title: Sauder Ops Canvas Tools
 description: A collection of projects centred around supporting Learning Analytics, Visual Analytics and Operational Processes at UBC Sauder.
 logo: assets/images/ubc-sauder-logo.png
 # baseurl: "" # the subpath of your site, e.g. /blog
