@@ -20,6 +20,9 @@ a {
 }
 
 .links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   height: 4rem;
 }
 
@@ -28,30 +31,28 @@ a {
 }
 
 header h1 {
-  width: 300px;
+  width: 280px;
 }
 
 .site_title {
-  font-size: 1.3rem;
+  text-align: center;
+  font-size: 1.2rem;
   margin: 0;
   width: 100%;
 }
 
 header ul {
+  border: none;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
-  height: 300px;
   padding: 0.5rem 0;
+  list-style-type: circle;
 }
 
 h3 {
   font-size: 1.4rem;
   color: $ubc-blue;
-}
-
-header ul {
-  border-radius: 10px;
-  background-color: $ubc-blue-light;
 }
 
 ul .doc_link {
@@ -60,6 +61,7 @@ ul .doc_link {
 }
 
 ul .doc_link a {
+  text-align: left;
   font-size: 1rem;
   font-weight: 700;
   width: 100%;
@@ -68,4 +70,15 @@ ul .doc_link a {
 
 .doc_link a:hover {
   color: #0b3562bd;
+}
+
+.btn_github {
+  font-weight: 700;
+  font-size: 1rem;
+  color: $ubc-blue;
+  padding: 4px 4px;
+  background-color: $ubc-blue-light;
+  border-radius: 3px;
+  border: 1px solid $ubc-blue;
+  height: 25px;
 }
