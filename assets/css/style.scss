@@ -4,72 +4,113 @@
 @import '{{ site.theme }}';
 
 $sauder-green: #78be1f;
-$ubc-blue: #002145;
+$ubc-blue: #99c9fd;
 $ubc-blue-light: #97d5e97b;
 
-a {
-  color: $ubc-blue;
-}
+$dark-grey: rgb(69, 69, 69);
+$primary: #012144;
+$secondary: #267cb9;
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  height: 4rem;
-}
-
-.links {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 4rem;
+.wrapper {
+  font-family: 'Lato', sans-serif;
 }
 
 .logo {
+  width: 120px;
   margin-bottom: 1rem;
 }
 
-header h1 {
-  width: 280px;
-}
-
-.site_title {
-  text-align: center;
-  font-size: 1.2rem;
-  margin: 0;
+.site_title h1 {
+  font-weight: 900;
+  color: $primary;
+  font-size: 2.17rem;
   width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
 }
 
-header ul {
-  border: none;
-  background-color: #fff;
+.site_title h3 {
+  color: $secondary;
+  font-size: 1rem;
+  width: 100%;
+  text-align: right;
+}
+
+.site_description {
+  width: 100%;
+  color: $dark-grey;
+  font-size: 0.9rem;
+  line-height: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.docs {
   display: flex;
   flex-direction: column;
-  padding: 0.5rem 0;
-  list-style-type: circle;
+  align-items: center;
 }
 
-h3 {
-  font-size: 1.4rem;
-  color: $ubc-blue;
+.docs h3 {
+  color: $primary;
 }
 
-ul .doc_link {
+.docs ul {
   border: none;
   width: 100%;
+  list-style-type: disc;
+  display: inline-block;
+  background-color: #fff;
 }
 
-ul .doc_link a {
-  text-align: left;
-  font-size: 1rem;
-  font-weight: 700;
+.link {
+  border: none;
   width: 100%;
-  color: $ubc-blue;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: $primary;
+  display: flex;
+  align-items: center;
 }
 
-.doc_link a:hover {
-  color: #0b3562bd;
+.link a {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: center;
+  border: none;
+  text-align: left;
+  font-size: 1.1rem;
+  color: $primary;
+  width: 100%;
+  transition: all 0.2s ease-in;
+}
+
+.link a:hover {
+  color: $secondary;
+  font-weight: 400;
+  transform: scale(1.05);
+}
+
+section h2 {
+  margin-bottom: 10px;
+}
+
+section h2 a {
+  color: $primary;
+  font-weight: 900;
+  transition: all 0.2s ease-in;
+}
+
+section h2 a:hover {
+  font-weight: 900;
+  color: $secondary;
+}
+
+section p {
+  line-height: 25px;
+  color: $dark-grey;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
 }
 
 .btn_github {
