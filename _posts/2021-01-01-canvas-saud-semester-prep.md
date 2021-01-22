@@ -1,11 +1,11 @@
 ---
 layout: posts
-permalink: /canvas-get-group-csv/
-repository: https://github.com/saud-learning-services/canvas-get-group-csv
+permalink: /canvas-saud-semester-prep/
+repository: https://github.com/saud-learning-services/canvas-saud-semester-prep
 
-title: Canvas Get Group CSV
+title: Canvas (Sauder) Semester Prep
 
-summary: Canvas Get Group CSV is a Jupyter Notebook and Python application that is used to extract a csv file of group names and associated student user IDs in any Canvas course.
+summary: Generates a CSV that summarizes all Canvas courses that fall under a provided term id and account id(s).
 ---
 
 ### TODO: Learning Services Instructions for Use
