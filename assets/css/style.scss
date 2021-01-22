@@ -7,9 +7,10 @@ $sauder-green: #78be1f;
 $ubc-blue: #99c9fd;
 $ubc-blue-light: #97d5e97b;
 
-$dark-grey: rgb(69, 69, 69);
+$dark-grey: rgb(108, 108, 108);
 $primary: #012144;
 $secondary: #267cb9;
+$secondary-transparent: #267cb982;
 
 .wrapper {
   font-family: 'Lato', sans-serif;
@@ -23,7 +24,7 @@ $secondary: #267cb9;
 .site_title h1 {
   font-weight: 900;
   color: $primary;
-  font-size: 2.17rem;
+  font-size: 2.15rem;
   width: 100%;
   text-align: left;
   margin-bottom: 5px;
@@ -91,6 +92,11 @@ $secondary: #267cb9;
   transform: scale(1.05);
 }
 
+section h1 {
+  color: $primary;
+  font-weight: 900;
+}
+
 section h2 {
   margin-bottom: 10px;
 }
@@ -111,15 +117,29 @@ section p {
   color: $dark-grey;
   font-size: 0.9rem;
   margin-bottom: 1.5rem;
+  padding-left: 6px;
+  border-left: 4px solid $secondary-transparent;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
 }
 
 .btn_github {
   font-weight: 700;
-  font-size: 1rem;
-  color: $ubc-blue;
-  padding: 4px 4px;
-  background-color: $ubc-blue-light;
-  border-radius: 3px;
-  border: 1px solid $ubc-blue;
+  font-size: 0.9rem;
+  color: $primary;
+  background-color: #fff;
+  border: 2px solid $primary;
+  padding: 6px 8px;
+  border-radius: 5px;
   height: 25px;
+  transition: all 0.2s ease-in;
+}
+
+.btn_github:hover {
+  color: #fff;
+  background-color: $primary;
 }

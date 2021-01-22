@@ -5,10 +5,10 @@ repository: https://github.com/saud-learning-services/canvas-saud-semester-prep
 
 title: Canvas (Sauder) Semester Prep
 
-summary:
+summary: Generates a CSV that summarizes all Canvas courses that fall under a provided term id and account id(s).
 ---
 
-# Learning Services Instructions for Use
+### TODO: Learning Services Instructions for Use
 
 - should include information related to everything except actually running the project
 - how should ops know when to run
