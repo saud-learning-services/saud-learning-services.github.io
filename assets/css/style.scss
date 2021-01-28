@@ -143,3 +143,20 @@ section p {
   color: #fff;
   background-color: $primary;
 }
+
+.btn_github_homepage {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: $secondary;
+  background-color: #fff;
+  border: 2px solid $secondary;
+  padding: 6px 8px;
+  border-radius: 5px;
+  height: 25px;
+  transition: all 0.2s ease-in;
+}
+
+.btn_github_homepage:hover {
+  color: #fff;
+  background-color: $secondary;
+}
