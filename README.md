@@ -1,4 +1,4 @@
-# saud-learning-services
+# Sauder Ops Canvas Site
 
 for public site
 

@@ -20,7 +20,6 @@
 
 title: Sauder LS Ops | Canvas API Tools
 description: A collection of tools hosted on GitHub to support Sauder LS Ops in various Canvas API tasks, including data collection, bulk course changes and more.
-logo: assets/images/ubc-sauder-logo.png
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
