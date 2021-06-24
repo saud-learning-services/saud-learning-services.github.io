@@ -26,7 +26,6 @@ Procedure:
 ONLY FOR RHL: Change the dates for the RHL courses according to the RHL tab in the course spreadsheet. This can be done using the change course dates script if it is for semester prep after the Mass Course Copy at the beginning of the term, or manually if it is after the semester prep (weekly subaccount movement).  The end date should be set to 4 weeks after the exam date.  If there are any WL1 (waitlisted) courses, they can be deleted.
 
 NOTE:
-
 For SFT sections: normally, merge SFT sections with 001 & 002 (FT MBA) sections; but if sections show irregularity, contact FT MBA program assistant as to either merge or delete any sections.  Include Lyon Tsang in the email.
 
 Real Estate course are created in the Mass Course Copy but in a case where they appear in the repository, move to the Real Estate Division (RED). this should be done by the script.
