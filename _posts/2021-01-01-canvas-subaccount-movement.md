@@ -11,11 +11,13 @@ summary: Canvas Subaccount Movement is a Jupyter Notebook and Python script that
 
 ---
 
-### Learning Services Instructions for Use
+# Learning Services Instructions for Use
 
-Purpose: This script is used for moving canvas courses that are initially created in the UBC Sauder SIS Course repository account 21 into the UBC Sauder School of Business 454 sub-account. The script moves courses that are all in the 21 sub account into their appropriate sub-sub accounts, including BCOM, DAP and RHL. Courses for Real Estate remain in Sub-account 21. 
+## Purpose 
+This script is used for moving canvas courses that are initially created in the UBC Sauder SIS Course repository account 21 into the UBC Sauder School of Business 454 sub-account. The script moves courses that are all in the 21 sub account into their appropriate sub-sub accounts, including BCOM, DAP and RHL. Courses for Real Estate remain in Sub-account 21. 
 
-When to run: Run this script just after the mass course copy prior to every term as well as every monday if there are courses created in the 21 subaccount.
+## When to Run
+Run this script just after the mass course copy prior to every term as well as every monday if there are courses created in the 21 subaccount.
 Procedure: 
 
 1. Run the script from the link above.  Stop at the point where the spreadsheet is created, you will want to refer to the spreadsheet to confirm courses are going into the correct subaccount.
@@ -23,12 +25,12 @@ Procedure:
 3. Add the moved courses into the Google course spreadsheet.
 4. Apply the correct blueprint to the courses. In the RHL, there should be one blueprint per cohort subaccount. Apply the correct one by associating, and syncing blueprint. (we used to disassociate but now we keep them associated)
 
-ONLY FOR RHL: Change the dates for the RHL courses according to the RHL tab in the course spreadsheet. This can be done using the change course dates script if it is for semester prep after the Mass Course Copy at the beginning of the term, or manually if it is after the semester prep (weekly subaccount movement).  The end date should be set to 4 weeks after the exam date.  If there are any WL1 (waitlisted) courses, they can be deleted.
+> ONLY FOR RHL: Change the dates for the RHL courses according to the RHL tab in the course spreadsheet. This can be done using the change course dates script if it is for semester prep after the Mass Course Copy at the beginning of the term, or manually if it is after the semester prep (weekly subaccount movement).  The end date should be set to 4 weeks after the exam date.  If there are any WL1 (waitlisted) courses, they can be deleted.
 
-NOTE:
-For SFT sections: normally, merge SFT sections with 001 & 002 (FT MBA) sections; but if sections show irregularity, contact FT MBA program assistant as to either merge or delete any sections.  Include Lyon Tsang in the email.
+## Notes
+- For SFT sections: normally, merge SFT sections with 001 & 002 (FT MBA) sections; but if sections show irregularity, contact FT MBA program assistant as to either merge or delete any sections.  Include Lyon Tsang in the email.
 
-Real Estate course are created in the Mass Course Copy but in a case where they appear in the repository, move to the Real Estate Division (RED). this should be done by the script.
+- Real Estate course are created in the Mass Course Copy but in a case where they appear in the repository, move to the Real Estate Division (RED). this should be done by the script.
 
-Directed Studies Courses Notes: Directed Studies courses do not require Canvas sites, unless a specific request is made by the Program team (and Ops team would reach out to your team directly). You can delete these courses as they appear unless told otherwise by RHL.
+- Directed Studies Courses Notes: Directed Studies courses do not require Canvas sites, unless a specific request is made by the Program team (and Ops team would reach out to your team directly). You can delete these courses as they appear unless told otherwise by RHL.
 
