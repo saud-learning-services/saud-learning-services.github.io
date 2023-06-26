@@ -8,12 +8,6 @@ title: Canvas (Sauder) Semester Prep
 summary: Generates a CSV that summarizes all Canvas courses that fall under a provided term id and account id(s).
 ---
 
-### TODO: Learning Services Instructions for Use
+### Note
 
-- should include information related to everything except actually running the project
-- how should ops know when to run
-- how regularly is the tool used
-- what should ops do with the data (if any) once downloaded
-- any manual steps that need to take place after running?
-- any common issues to be aware of
-- if no output created how is ops tracking when it is run and by who?
+- This repository is private. If you are a member of Sauder Learning Services - please ensure you are signed in, or get in touch to create a github account.
